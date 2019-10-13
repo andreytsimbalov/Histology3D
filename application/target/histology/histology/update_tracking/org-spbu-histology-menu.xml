@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.spbu.histology.menu">
+    <module_version install_time="1570953758587" last="true" origin="installer" specification_version="1.0">
+        <file crc="305051875" name="config/Modules/org-spbu-histology-menu.xml"/>
+        <file crc="2647138666" name="modules/org-spbu-histology-menu.jar"/>
+        <file crc="1682634623" name="update_tracking/org-spbu-histology-menu.xml"/>
+    </module_version>
+</module>

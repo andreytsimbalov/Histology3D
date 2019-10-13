@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.spbu.histology.cross.section.viewer">
+    <module_version install_time="1570953758538" last="true" origin="installer" specification_version="1.0">
+        <file crc="3735423763" name="config/Modules/org-spbu-histology-cross-section-viewer.xml"/>
+        <file crc="1085109929" name="modules/org-spbu-histology-cross-section-viewer.jar"/>
+        <file crc="1661553485" name="update_tracking/org-spbu-histology-cross-section-viewer.xml"/>
+    </module_version>
+</module>

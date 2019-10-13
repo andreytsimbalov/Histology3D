@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_spbu_histology_space_editor">
+                <file name="SpaceEditor" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.spbu.histology.space.editor.SpaceEditorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.spbu.histology.space.editor//SpaceEditor//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="spbu">
+                    <folder name="histology">
+                        <folder name="space">
+                            <folder name="editor">
+                                <file name="SpaceEditorTopComponent">
+                                    <!--org.spbu.histology.space.editor.SpaceEditorTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//org_spbu_histology_space_editor/SpaceEditor.instance"/>
+                                </file>
+                            </folder>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_spbu_histology_space_editor">
+                <file name="SpaceEditor.instance">
+                    <!--org.spbu.histology.space.editor.SpaceEditorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.spbu.histology.space.editor.SpaceEditorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.spbu.histology.space.editor.SpaceEditorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Edit">
+            <file name="org-spbu-histology-menu-AB3.instance">
+                <!--org.spbu.histology.space.editor.HomeController.AB3-->
+                <attr
+                    bundlevalue="org.spbu.histology.space.editor.Bundle#CTL_AB3" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.spbu.histology.space.editor.HomeController$AB3"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-spbu-histology-menu-AB6C2.instance">
+                <!--org.spbu.histology.space.editor.HomeController.AB6C2-->
+                <attr
+                    bundlevalue="org.spbu.histology.space.editor.Bundle#CTL_AB6C2" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.spbu.histology.space.editor.HomeController$AB6C2"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-spbu-histology-menu-AB6C21.instance">
+                <!--org.spbu.histology.space.editor.HomeController.AB6C21-->
+                <attr
+                    bundlevalue="org.spbu.histology.space.editor.Bundle#CTL_AB6C21" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.spbu.histology.space.editor.HomeController$AB6C21"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-spbu-histology-menu-A3B.instance">
+                <!--org.spbu.histology.space.editor.HomeController.A3B-->
+                <attr
+                    bundlevalue="org.spbu.histology.space.editor.Bundle#CTL_A3B" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.spbu.histology.space.editor.HomeController$A3B"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-spbu-histology-menu-AB2.instance">
+                <!--org.spbu.histology.space.editor.HomeController.AB2-->
+                <attr
+                    bundlevalue="org.spbu.histology.space.editor.Bundle#CTL_AB2" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.spbu.histology.space.editor.HomeController$AB2"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-spbu-histology-toolbar-SpreadHistion.instance">
+                <!--org.spbu.histology.space.editor.spreadIcon.SpreadHistion-->
+                <attr name="displayName" stringvalue="Распространить Гистион"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.spbu.histology.space.editor.spreadIcon.SpreadHistion"/>
+                <attr name="iconBase" stringvalue="org/spbu/histology/space/editor/spread.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-spbu-histology-toolbar-CleanSpread.instance">
+                <!--org.spbu.histology.space.editor.spreadIcon.CleanSpread-->
+                <attr name="displayName" stringvalue="Убрать распространение Гистиона"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.spbu.histology.space.editor.spreadIcon.CleanSpread"/>
+                <attr name="iconBase" stringvalue="org/spbu/histology/toolbar/close.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="org-spbu-histology-space-editor-SpaceEditorTopComponent.instance">
+                <!--org.spbu.histology.space.editor.SpaceEditorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.spbu.histology.space.editor.SpaceEditorTopComponent"/>
+                <attr name="preferredID" stringvalue="SpaceEditorTopComponent"/>
+                <attr
+                    bundlevalue="org.spbu.histology.space.editor.Bundle#CTL_ToolsAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="3D MODELS">
+            <folder name="Triangular">
+                <file name="org-spbu-histology-menu-AB3.shadow">
+                    <!--org.spbu.histology.space.editor.HomeController.AB3-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/org-spbu-histology-menu-AB3.instance"/>
+                    <attr intvalue="1" name="position"/>
+                </file>
+                <file name="org-spbu-histology-menu-AB3-separatorAfter.instance">
+                    <!--org.spbu.histology.space.editor.HomeController.AB3-->
+                    <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                    <attr intvalue="20" name="position"/>
+                </file>
+                <file name="org-spbu-histology-menu-AB6C2.shadow">
+                    <!--org.spbu.histology.space.editor.HomeController.AB6C2-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/org-spbu-histology-menu-AB6C2.instance"/>
+                    <attr intvalue="2" name="position"/>
+                </file>
+                <file name="org-spbu-histology-menu-AB6C21.shadow">
+                    <!--org.spbu.histology.space.editor.HomeController.AB6C21-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/org-spbu-histology-menu-AB6C21.instance"/>
+                    <attr intvalue="3" name="position"/>
+                </file>
+                <file name="org-spbu-histology-menu-A3B.shadow">
+                    <!--org.spbu.histology.space.editor.HomeController.A3B-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/org-spbu-histology-menu-A3B.instance"/>
+                    <attr intvalue="21" name="position"/>
+                </file>
+                <file name="org-spbu-histology-menu-AB2.shadow">
+                    <!--org.spbu.histology.space.editor.HomeController.AB2-->
+                    <attr name="originalFile" stringvalue="Actions/Edit/org-spbu-histology-menu-AB2.instance"/>
+                    <attr intvalue="22" name="position"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="Window">
+            <file name="org-spbu-histology-space-editor-SpaceEditorTopComponent.shadow">
+                <!--org.spbu.histology.space.editor.SpaceEditorTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-spbu-histology-space-editor-SpaceEditorTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="File">
+            <file name="org-spbu-histology-toolbar-SpreadHistion.shadow">
+                <!--org.spbu.histology.space.editor.spreadIcon.SpreadHistion-->
+                <attr name="originalFile" stringvalue="Actions/Edit/org-spbu-histology-toolbar-SpreadHistion.instance"/>
+                <attr intvalue="400" name="position"/>
+            </file>
+            <file name="org-spbu-histology-toolbar-CleanSpread.shadow">
+                <!--org.spbu.histology.space.editor.spreadIcon.CleanSpread-->
+                <attr name="originalFile" stringvalue="Actions/Edit/org-spbu-histology-toolbar-CleanSpread.instance"/>
+                <attr intvalue="430" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="SpaceEditorTopComponent.settings">
+                <!--org.spbu.histology.space.editor.SpaceEditorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.spbu.histology.space.editor.SpaceEditorTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="explorer">
+                <file name="SpaceEditorTopComponent.wstcref">
+                    <!--org.spbu.histology.space.editor.SpaceEditorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="SpaceEditorTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

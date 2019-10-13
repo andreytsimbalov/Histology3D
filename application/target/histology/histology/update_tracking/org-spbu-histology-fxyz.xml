@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.spbu.histology.fxyz">
+    <module_version install_time="1570953757837" last="true" origin="installer" specification_version="1.0">
+        <file crc="1531776989" name="config/Modules/org-spbu-histology-fxyz.xml"/>
+        <file crc="3443567350" name="modules/org-spbu-histology-fxyz.jar"/>
+        <file crc="1440519613" name="update_tracking/org-spbu-histology-fxyz.xml"/>
+    </module_version>
+</module>

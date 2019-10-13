@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.spbu.histology.histology.branding">
+    <module_version install_time="1570953756846" last="true" origin="installer" specification_version="1.0">
+        <file crc="3527098916" name="config/Modules/org-spbu-histology-histology-branding.xml"/>
+        <file crc="3635968095" name="core/locale/core_histology.jar"/>
+        <file crc="533958034" name="modules/locale/org-netbeans-core-windows_histology.jar"/>
+        <file crc="210721159" name="modules/locale/org-netbeans-core_histology.jar"/>
+        <file crc="73533806" name="modules/org-spbu-histology-histology-branding.jar"/>
+        <file crc="1768540933" name="update_tracking/org-spbu-histology-histology-branding.xml"/>
+    </module_version>
+</module>

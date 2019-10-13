@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.spbu.histology.toolbar">
+    <module_version install_time="1570953758429" last="true" origin="installer" specification_version="1.0">
+        <file crc="1250292392" name="config/Modules/org-spbu-histology-toolbar.xml"/>
+        <file crc="3676101550" name="modules/org-spbu-histology-toolbar.jar"/>
+        <file crc="3935274693" name="update_tracking/org-spbu-histology-toolbar.xml"/>
+    </module_version>
+</module>
